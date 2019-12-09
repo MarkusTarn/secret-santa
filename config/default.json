@@ -1,0 +1,36 @@
+{
+    "service": {
+        "port": 5300
+    },
+    "client": {
+        "port": 5320
+    },
+    "db": {
+        "mongoConnectionString": "mongodb://localhost/secret-santa"
+    },
+    "auth": {
+        "session": {
+            "name": "sid",
+            "secret": "fekkers",
+            "cookie": {
+                "maxAge": 43200000,
+                "secure": false
+            }
+        },
+        "google": {
+            "clientId": "248132403962-kk4lbkuceihqn9c889mpuc347tt344ou.apps.googleusercontent.com",
+            "secret": "4Mba7Ge07U032I5fqCtateOw",
+            "callback": "http://pit-stop.net:5320/api/auth/google/callback"
+        }
+    },
+    "logger": {
+        "console": {
+            "enabled": true,
+            "level": "debug"
+        },
+        "file": {
+            "enabled": true,
+            "level": "info"
+        }
+    }
+}
