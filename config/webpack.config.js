@@ -86,6 +86,7 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: INDEX_HTML,
       filename: './index.html',
+      favicon: './src/client/icons/favicon.png',
     }),
   ],
 }

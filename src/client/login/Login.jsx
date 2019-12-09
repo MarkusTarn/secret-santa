@@ -17,7 +17,7 @@ export default function Login() {
             <CardContent>
               <Typography align="center" variant="h5">Osaled loosis?</Typography>
               <Divider style={{ marginBottom: '1rem', marginTop: '1rem' }}/>
-              <Button fullWidth variant="contained" color="secondary" href="/api/auth/google">Umm, loog...</Button>
+              <Button fullWidth variant="contained" color="secondary" href="/api/auth/google">Umm, loog 🙄...</Button>
             </CardContent>
           </Card>
         </Grid>

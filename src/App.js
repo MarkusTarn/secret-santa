@@ -1,7 +1,7 @@
 /* eslint-disable global-require */
 const express = require('express')
 const config = require('config')
-const path = require('path')
+const { join } = require('path')
 const passport = require('passport')
 const session = require('express-session')
 const cookieParser = require('cookie-parser')
@@ -39,8 +39,8 @@ module.exports = () => {
   registerRoutes(app)
 
   /** Client Entry point */
-  app.use(express.static(path.join(__dirname, '../build')))
-  app.route('*').get((req, res) => res.sendFile(path.join(__dirname, '../build/index.html')))
+  app.use(express.static(join(__dirname, '../build')))
+  app.route('*').get((req, res) => res.sendFile(join(__dirname, '../build/index.html')))
 
 
   /** Server Event listeners */

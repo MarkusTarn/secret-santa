@@ -18,9 +18,9 @@
             }
         },
         "google": {
-            "clientId": "248132403962-kk4lbkuceihqn9c889mpuc347tt344ou.apps.googleusercontent.com",
-            "secret": "4Mba7Ge07U032I5fqCtateOw",
-            "callback": "http://pit-stop.net:5320/api/auth/google/callback"
+            "clientId": "180300738616-4cci62vpip8rr2mk5vercrn6suvpf6ua.apps.googleusercontent.com",
+            "secret": "-iQa1eiY6Rk94bg-qqxBTewO",
+            "callback": "https://melonis.space/api/auth/google/callback"
         }
     },
     "logger": {
