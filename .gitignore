@@ -105,3 +105,6 @@ dist
 
 # build
 build
+
+# config
+config/local.json
